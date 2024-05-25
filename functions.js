@@ -51,7 +51,17 @@ let arrow1= (a,b) => console.log("one liner arroew function " + (a+b));
 arrow1(2,4);
 
 
+//function inside function
 
+let fun1=()=>{
+    console.log(`I am in function 1`);
+    let fun2=()=>{
+        console.log(`I am inside function 2`);
+    }
+    fun2();
+}
+
+fun1();
 
 
 

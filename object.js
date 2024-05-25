@@ -31,3 +31,27 @@ for(let i of Object.keys(obj)){
     console.log(obj[i]);
 }
 
+// objects inside array
+
+let arr=[
+  {RollNo:22101045,name:"Pratik"},
+  {RollNo:22101020,name:"Gaurav"},
+  {RollNo:22101048,name:"Raghav"}
+]
+console.log(arr[2].name);
+
+for(let i in arr){
+  console.log(arr[i]);
+}
+
+for(let i of arr){
+  console.log(i.name);
+}
+
+let [{name},,{name:name1}]=arr;
+console.log(name);
+console.log(name1);
+// console.log(item2);
+
+
+
