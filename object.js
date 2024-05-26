@@ -1,4 +1,5 @@
 let obj={
+  "1": "Just checking",
   name:"Pratik",
   "age":24,
   "college":"IIT Kanpur",
@@ -11,7 +12,7 @@ let obj={
 };
 
 //obj[key]=value;
-
+// console.log(`Checking the type of key ${obj.}`);
 obj.fun();
 obj.arrowfun();
 console.log(obj.college);
