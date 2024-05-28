@@ -13,7 +13,7 @@ function LoadingData() {
       setTimeout(() => {
         console.log(`2) collecting Data`);
         res();
-      }, 1000);
+      }, 1000)
     });
   }
   
