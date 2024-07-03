@@ -72,8 +72,8 @@
 let obj1 = new Promise((resolved, rejected) => {
   setTimeout(() => {
     let RollNumber = [1, 2, 3, 4, 5];
-    // resolved(RollNumber);
-    rejected("Promise is not fulfilled");
+    resolved(RollNumber);
+    // rejected("Promise is not fulfilled");
   }, 1000);
 });
 

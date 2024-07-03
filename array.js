@@ -106,3 +106,4 @@ let newstring = arr1.join(" and ");
 console.log(`old array =>`, `${arr1}`);
 
 console.log(newstring);
+

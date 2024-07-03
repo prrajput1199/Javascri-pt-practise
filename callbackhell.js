@@ -29,7 +29,6 @@ function approved(){
 }
 
 
-
 LoadingData(function fun(){
     collectingData(function fun1() {
         approvingData(function fun3(){

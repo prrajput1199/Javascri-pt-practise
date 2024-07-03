@@ -4,6 +4,8 @@
 
 //They should be executed only with new operator
 
+//In class-based, object-oriented programming, a constructor (abbreviation: ctor) is a special type of function called to create an object.
+
 function Fun(){
    let name="Pratik";
    this.name=name;
@@ -17,10 +19,10 @@ function Fun(){
     // }
 }
 
-// let newObj = new Fun();
-// console.log(newObj.name);
+let newObj = new Fun();
+console.log(newObj.name);
 
 //suppose you did'nt write new
 
-let newObj = Fun();
-console.log(newObj);
+// let newObj = Fun();
+// console.log(newObj);
