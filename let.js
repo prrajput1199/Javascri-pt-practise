@@ -30,3 +30,6 @@ console.log(window.b)
 // b=100;
 
 
+// console.log("before variable z"+ " "+ z);
+let z=10;
+console.log("after variable z"+ " "+ z);
